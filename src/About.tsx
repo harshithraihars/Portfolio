@@ -1,5 +1,4 @@
-import { FaWordpress, FaShopify, FaCode, FaMobileAlt } from "react-icons/fa";
-import { SiFramer } from "react-icons/si";
+import { FaCode, FaMobileAlt } from "react-icons/fa";
 import React from "react";
 
 // Define the SkillCardProps interface

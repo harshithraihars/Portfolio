@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { FaGlobe, FaWordpress, FaShopify } from "react-icons/fa";
 
 type ProjectType = "web" | "wordpress" | "shopify";
