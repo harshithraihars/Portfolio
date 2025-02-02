@@ -68,15 +68,15 @@ export default function ContactSection() {
                 <div className="flex items-center mb-4">
                   <FaEnvelope className="text-cyan-300 mr-2" />
                   <a
-                    href="mailto:digitalhamzaparvez@gmail.com"
+                    href="mailto:harshithraiharsu@gmail.com"
                     className="text-white hover:text-cyan-300 transition-colors duration-300"
                   >
-                    digitalhamzaparvez@gmail.com
+                    harshithraiharsu@gmail.com
                   </a>
                 </div>
                 <div className="flex space-x-4">
                   <a
-                    href="https://github.com/Hamza-bot3"
+                    href="https://github.com/harshithraihars"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white hover:text-cyan-300 transition-colors duration-300 glow-effect"
@@ -84,7 +84,7 @@ export default function ContactSection() {
                     <FaGithub size={24} />
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/hamza-parvez-8a761b225/"
+                    href="https://www.linkedin.com/in/harshithraib"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white hover:text-cyan-300 transition-colors duration-300 glow-effect"
@@ -92,7 +92,7 @@ export default function ContactSection() {
                     <FaLinkedin size={24} />
                   </a>
                   <a
-                    href="https://www.instagram.com/hamza_webdev/"
+                    href="https://www.instagram.com/rai_harsu_"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white hover:text-cyan-300 transition-colors duration-300 glow-effect"
@@ -184,7 +184,7 @@ export default function ContactSection() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <h3 className="text-2xl font-bold text-white">Hamza Parvez</h3>
+              <h3 className="text-2xl font-bold text-white">Harshith Rai</h3>
               <p className="text-cyan-100 mt-1 max-w-2xl">
                 A Frontend focused Web Developer building the Frontend of
                 Websites and Web Applications that leads to the success of the
@@ -230,7 +230,7 @@ export default function ContactSection() {
           </div>
           <div className="mt-8 text-center text-cyan-100">
             <p>
-              &copy; {new Date().getFullYear()} Hamza Parvez. All rights
+              &copy; {new Date().getFullYear()} Harshith Rai. All rights
               reserved.
             </p>
           </div>

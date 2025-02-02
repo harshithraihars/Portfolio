@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { FaBars, FaTimes, FaCode, FaEnvelope, FaHome } from "react-icons/fa";
-import HamzaImage from "./img/Hamza.jpeg";
+import ProfileImg from "./img/Profile.jpg"
 
 export default function HeroSection() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -91,10 +91,10 @@ export default function HeroSection() {
         <div className="flex flex-col lg:flex-row items-center justify-between min-h-[calc(100vh-80px)] mt-20 lg:mt-0">
           <div className="text-center lg:text-left lg:w-1/2 mb-4 lg:mb-0">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 animate-fade-in-up">
-              Hi, I'm <span className="text-cyan-300">Hamza Parvez</span>
+              Hi, I'm <span className="text-cyan-300">Harshith Rai</span>
             </h1>
-            <p className="text-xl md:text-2xl text-cyan-100 mb-4 animate-fade-in-up animation-delay-200">
-              Full-stack Developer & UI/UX Enthusiast
+            <p className="text-2xl md:text-2xl text-cyan-200 mb-4 animate-fade-in-up animation-delay-200">
+              Full-stack Developer 
             </p>
             <p className="text-white text-lg mb-6 animate-fade-in-up animation-delay-400 max-w-2xl">
               I craft beautiful, responsive, and user-friendly web applications.
@@ -121,8 +121,8 @@ export default function HeroSection() {
           <div className="lg:w-1/2 flex justify-center lg:justify-end animate-fade-in-up animation-delay-800 mt-8 lg:mt-0">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-lg">
               <img
-                src={HamzaImage}
-                alt="Hamza Parvez"
+                src={ProfileImg}
+                alt="Harshith Rai"
                 className="w-full h-full object-cover rounded-full shadow-lg shadow-gray-500/50"
               />
             </div>
